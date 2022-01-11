@@ -3,7 +3,7 @@
 		"ID number":432,
 		"Name":"Cart - Unable to add new item to my cart",
 		"Reporter":"Danil Hazhiev"
-		"Date":11/01/2022,
+		"Date":"11/01/2022",
 		},
 	"Bug overview":{
 			"Summary":"When my cart contains one item, i am unable to second item by add to card button"
