@@ -2,26 +2,26 @@
 	"Bag ID":{
 		"ID number":432,
 		"Name":"Cart - Unable to add new item to my cart",
-		"Reporter":"Danil Hazhiev"
-		"Date":"11/01/2022",
+		"Reporter":"Danil Hazhiev",
+		"Date":"11/01/2022"
 		},
 	"Bug overview":{
-			"Summary":"When my cart contains one item, i am unable to second item by add to card button"
-			"URL":"www.Amazon.com"
+			"Summary":"When my cart contains one item, i am unable to second item by add to card button",
+			"URL":"www.Amazon.com",
 			"screenshot":"www.image.com/randomscreenshot"
 			},
 	"Environment":{
-			"Platform":"Random pesonal computer"
-			"OS":"Windows"
+			"Platform":"Random pesonal computer",
+			"OS":"Windows",
 			"Browser":"YandexBrowser" 
 			},
 	"Bug Details":{
-			"Steps to reproduce":"add one item to cart > choose product > try to add item by pressing add to card button > check cart"
-			"Expected result":"The caty should contain 2 items"
+			"Steps to reproduce":"add one item to cart > choose product > try to add item by pressing add to card button > check cart",
+			"Expected result":"The cart should contain 2 items",
 			"Actual Result":"The cart contain onlu 1 item"
 			},
 	"Bug Tracking":{
-			"Severity":"Major"
+			"Severity":"Major",
 			"Priority":"High"
 			}
 }

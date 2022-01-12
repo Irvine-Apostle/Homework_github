@@ -55,26 +55,26 @@ JSON
 	"Bag ID":{
 		"ID number":432,
 		"Name":"Cart - Unable to add new item to my cart",
-		"Reporter":"Danil Hazhiev"
-		"Date":"11/01/2022",
-		},
+		"Reporter":"Danil Hazhiev",
+		"Date":"11/01/2022"
+		}
 	"Bug overview":{
-			"Summary":"When my cart contains one item, i am unable to second item by add to card button"
-			"URL":"www.Amazon.com"
+			"Summary":"When my cart contains one item, i am unable to second item by add to card button",
+			"URL":"www.Amazon.com",
 			"screenshot":"www.image.com/randomscreenshot"
 			}
 	"Environment":{
-			"Platform":"Random pesonal computer"
-			"OS":"Windows"
+			"Platform":"Random pesonal computer",
+			"OS":"Windows",
 			"Browser":"YandexBrowser" 
 			}
 	"Bug Details":{
-			"Steps to reproduce":"add one item to cart > choose product > try to add item by pressing add to card button > check cart"
-			"Expected result":"The caty should contain 2 items"
+			"Steps to reproduce":"add one item to cart > choose product > try to add item by pressing add to card button > check cart",
+			"Expected result":"The cart should contain 2 items",
 			"Actual Result":"The cart contain onlu 1 item"
 			}
 	"Bug Tracking":{
-			"Severity":"Major"
+			"Severity":"Major",
 			"Priority":"High"
 			}
 }
@@ -93,7 +93,8 @@ XML
  25. Закоммитить файл. ======= git commit "add new.xml file"
  26. Отправить файл на внешний GitHub репозиторий. ======= git push
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
- <aboutme>	
+ 
+<aboutme>	
 	<last name> Hazhiev </last name>
 	<name> Danil </name>
 	<patrynomic> Rafailovich </patrynomic>
@@ -101,6 +102,7 @@ XML
 	<dometic animal> null </dometic animal>
 	<salary> 55555 </salary>
 </aboutme>
+
  28. Отправить изменения на внешний репозиторий. ======= git add > git commit > git push
  29. Создать файл preferences.xml ======= touch preferences.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
@@ -128,8 +130,43 @@ cat > skills.xml затем добавляем необходимую инфор
  
  32. Сделать коммит в одну строку. ======= git commit -am "comment"(Если необходимо комитнуть все файлы, в которых произошли изменения(работает только c уже отслеживаемыми файлами)
  33. Отправить сразу 2 файла на внешний репозиторий. ====== git add . && git commit -m "comment"
- 34. На веб интерфейсе создать файл bug_report.xml.
+ 34. На веб интерфейсе создать файл bug_report.xml. 
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+<Bag Report>
+  
+	  <Bag ID>
+		   <ID number> 432 </ID number>
+		   <Name> Cart - Unable to add new item to my cart </Name>
+		   <Reporter> Danil Hazhiev </Reporter>
+		   <Date> 11.01.2022 </Date> 
+	  </Bag ID>
+  
+	  <Bug overview>
+			  <Summary> When my cart contains one item, i am unable to second item by add to card button  </Summary>
+		  	<URL> www.Amazon.com </URL>
+		  	<screenshot> www.image.com/randomscreenshot </screenshot>
+	  </Bug overview>
+  
+	  <Environment>
+		  	<Platform> Random PC </Platform>
+			  <OS> Windows </OS>
+		  	<Browser> YandexBrowser </Browser>
+    </Environment>
+  
+  	<Bug Details>
+			  <Steps to reproduce> add one item to cart > choose product > try to add item by pressing add to card button > check cart </Steps to reproduce>
+		  	<Expected result> The cart should contain 2 items </Expected result>
+			  <Actual Result> The cart contain onlu 1 item  </Actual Result>
+  	</Bug Details>
+  
+  	<Bug Tracking>
+   		  <Severity> Major </Severity>
+		    <Priority> High </Priority>
+    </Bug Tracking>
+  
+</Bag Report>
+
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 38. Синхронизировать внешний и локальный репозиторий XML
+ 38. Синхронизировать внешний и локальный репозиторий XML ======= git pull

@@ -1,33 +1,33 @@
 <Bag Report>
   
 	  <Bag ID>
-		   <ID number> 432 </ID number>
-		   <Name> Cart - Unable to add new item to my cart </Name>
-		   <Reporter> Danil Hazhiev </Reporter>
-		   <Date> 11.01.2022 </Date> 
+		   	<ID number> 432 </ID number>
+		   	<Name> Cart - Unable to add new item to my cart </Name>
+		   	<Reporter> Danil Hazhiev </Reporter>
+		   	<Date> 11.01.2022 </Date> 
 	  </Bag ID>
   
 	  <Bug overview>
-			  <Summary> When my cart contains one item, i am unable to second item by add to card button  </Summary>
+			<Summary> When my cart contains one item, i am unable to second item by add to card button  </Summary>
 		  	<URL> www.Amazon.com </URL>
 		  	<screenshot> www.image.com/randomscreenshot </screenshot>
 	  </Bug overview>
   
 	  <Environment>
 		  	<Platform> Random PC </Platform>
-			  <OS> Windows </OS>
+			<OS> Windows </OS>
 		  	<Browser> YandexBrowser </Browser>
-    </Environment>
+	</Environment>
   
-  	<Bug Details>
-			  <Steps to reproduce> add one item to cart > choose product > try to add item by pressing add to card button > check cart </Steps to reproduce>
+	<Bug Details>
+			<Steps to reproduce> add one item to cart > choose product > try to add item by pressing add to card button > check cart </Steps to reproduce>
 		  	<Expected result> The cart should contain 2 items </Expected result>
-			  <Actual Result> The cart contain onlu 1 item  </Actual Result>
+			<Actual Result> The cart contain onlu 1 item  </Actual Result>
   	</Bug Details>
   
   	<Bug Tracking>
-   		  <Severity> Major </Severity>
-		    <Priority> High </Priority>
+			<Severity> Major </Severity>
+			<Priority> High </Priority>
     </Bug Tracking>
   
 </Bag Report>
