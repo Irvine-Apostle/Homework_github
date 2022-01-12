@@ -226,6 +226,32 @@ Skills:
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
 
+Bug Report:
+
+-Bag ID:
+	-ID number: 432 
+	-Name: Cart - Unable to add new item to my cart
+	-Reporter: Danil Hazhiev
+	-Date 11.01.2022 
+    
+-Bug overview:
+	-Summary: When my cart contains one item, i am unable to second item by add to card button
+	-URL: www.Amazon.com
+	-Screenshot: www.image.com/randomscreenshot
+    
+-Environment:
+	-Platform: Random PC
+	-OS: Windows
+	-Browser: YandexBrowser
+    
+-Bug Details:
+	-Steps to reproduce: add one item to cart > choose product > try to add item by pressing add to card button > check cart
+	-Expected result: The cart should contain 2 items
+	-Actual Result: The cart contain onlu 1 item
+    
+-Bug Tracking:
+	-Severity:Major
+	-Priority:High
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 18. Синхронизировать внешний и локальный репозиторий TXT
+ 18. Синхронизировать внешний и локальный репозиторий TXT ======== git pull
