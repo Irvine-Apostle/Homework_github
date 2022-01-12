@@ -14,7 +14,7 @@ JSON
 	"Name":"Danil" ,
 	"Patrynomic":"Rafailovich",
 	"Age":"23",
-	"Domestic Animal":0,
+	"Domestic Animal":null,
 	"Salary":55555
 }
 
@@ -98,7 +98,7 @@ XML
 	<name> Danil </name>
 	<patrynomic> Rafailovich </patrynomic>
 	<age> 23 </age>
-	<dometic animal> 0 </dometic animal>
+	<dometic animal> null </dometic animal>
 	<salary> 55555 </salary>
 </aboutme>
  28. Отправить изменения на внешний репозиторий. ======= git add > git commit > git push
@@ -114,20 +114,20 @@ XML
 </MyFavorites>
 
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
 cat > skills.xml затем добавляем необходимую информацию, сохраняем
 <Cources skills>
-		<skills>software testing theory,
-			client-server model,
-			HTTP,
-			JSON XML,
-			API,
-			SQL,
-			Python
-		</skills>			
+		<skill>software testing theory</skill>
+		<skill>client-server model</skill>
+		<skill>HTTP</skill>
+		<skill>JSON XML</skill>
+		<skill>API</skill>
+		<skill>SQL</skill>
+		<skill>Python</skill>				
 </Cources skills>
  
- 32. Сделать коммит в одну строку. ======= git commit -am "comment"(Если необходимо комитнуть все файлы, в которых произошли изменения(работает только если вы ранее работали с этими файлами и добавляли))
- 33. Отправить сразу 2 файла на внешний репозиторий.
+ 32. Сделать коммит в одну строку. ======= git commit -am "comment"(Если необходимо комитнуть все файлы, в которых произошли изменения(работает только c уже отслеживаемыми файлами)
+ 33. Отправить сразу 2 файла на внешний репозиторий. ====== git add . && git commit -m "comment"
  34. На веб интерфейсе создать файл bug_report.xml.
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.

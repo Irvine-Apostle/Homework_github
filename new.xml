@@ -3,6 +3,6 @@
 	<name> Danil </name>
 	<patrynomic> Rafailovich </patrynomic>
 	<age> 23 </age>
-	<dometic animal> 0 </dometic animal>
+	<dometic animal> null </dometic animal>
 	<salary> 55555 </salary>
 </aboutme>

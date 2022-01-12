@@ -1,10 +1,9 @@
 <Cources skills>
-		<skills>software testing theory,
-			client-server model,
-			HTTP,
-			JSON XML,
-			API,
-			SQL,
-			Python
-		</skills>			
+		<skill>software testing theory</skill>
+		<skill>client-server model</skill>
+		<skill>HTTP</skill>
+		<skill>JSON XML</skill>
+		<skill>API</skill>
+		<skill>SQL</skill>
+		<skill>Python</skill>				
 </Cources skills>

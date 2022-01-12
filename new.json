@@ -3,6 +3,6 @@
 	"Name":"Danil" ,
 	"Patrynomic":"Rafailovich",
 	"Age":"23",
-	"Domestic Animal":0,
+	"Domestic Animal":null,
 	"Salary":55555
 }
