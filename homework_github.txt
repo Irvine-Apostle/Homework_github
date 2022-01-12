@@ -8,6 +8,7 @@ JSON
  9. Отправить файл на внешний GitHub репозиторий. ======= git push
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 редактируем с помощью команды vim new.json 
+
 {
 	"Last name":"Hazhiev",
 	"Name":"Danil" ,
@@ -16,10 +17,12 @@ JSON
 	"Domestic Animal":0,
 	"Salary":55555
 }
+
  11. Отправить изменения на внешний репозиторий. ======= повторяем git add > git commit > git push
  12. Создать файл preferences.json ======= touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
  редактируем с помощью команды vim preferences.json 
+
 {
 	"Favorite film":"Blade runner",
 	"Favorite show":"Mindhunter",
@@ -27,8 +30,10 @@ JSON
 	"Favorite season":"Fall",
 	"Country to travel":"Canada"
 }
+
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON ======= touch skills.json
 редактируем с помощью команды vim touch skills.json
+
 {
 	"Skills":[
 			"software testing theory",
@@ -40,10 +45,12 @@ JSON
 			"Python"
 		]
 }
+
  15. Отправить сразу 2 файла на внешний репозиторий. ======= git add preferences.json skills.json или git add . для всех файлов, затем git commit -m "commentary" , git push
  16. На веб интерфейсе создать файл bug_report.json.
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
 {
 	"Bag ID":{
 		"ID number":432,
@@ -71,6 +78,7 @@ JSON
 			"Priority":"High"
 			}
 }
+
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  20. Синхронизировать внешний и локальный репозиторий JSON ======= git pull
 
@@ -85,10 +93,39 @@ XML
  25. Закоммитить файл. ======= git commit "add new.xml file"
  26. Отправить файл на внешний GitHub репозиторий. ======= git push
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
- 28. Отправить изменения на внешний репозиторий.
- 29. Создать файл preferences.xml
+ <aboutme>	
+	<last name> Hazhiev </last name>
+	<name> Danil </name>
+	<patrynomic> Rafailovich </patrynomic>
+	<age> 23 </age>
+	<dometic animal> 0 </dometic animal>
+	<salary> 55555 </salary>
+</aboutme>
+ 28. Отправить изменения на внешний репозиторий. ======= git add > git commit > git push
+ 29. Создать файл preferences.xml ======= touch preferences.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+<MyFavorites>
+	<Favorite film> Blade runner </Favorite film>
+ 	<Favorite show> Mindhunter </Favorite show>
+	<Favorite food> buckwheat </Favorite food>
+	<Favorite season> Fall </Favorite season>
+	<Country to travel> Canada </Country to travel>
+</MyFavorites>
+
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+cat > skills.xml затем добавляем необходимую информацию, сохраняем
+<Cources skills>
+		<skills>software testing theory,
+			client-server model,
+			HTTP,
+			JSON XML,
+			API,
+			SQL,
+			Python
+		</skills>			
+</Cources skills>
+ 
  32. Сделать коммит в одну строку.
  33. Отправить сразу 2 файла на внешний репозиторий.
  34. На веб интерфейсе создать файл bug_report.xml.
