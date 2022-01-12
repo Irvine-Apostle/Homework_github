@@ -1,0 +1,8 @@
+Skills:
+-software testing theory
+-Client-server model
+-HTTP
+-JSON,XML
+-API
+-SQL
+-Python				
