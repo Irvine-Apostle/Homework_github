@@ -3,7 +3,7 @@ JSON
  4. Создать внешний репозиторий c названием JSON. ======= curl -u USER:TOKEN https://api.github.com/user/repos -d '{"name":"REPO"}' 
  Где USER - Логин\имя пользователя на гитхабе. TOKEN - подобного рода: sdgg757dfg6576sdf5756dsf, необходимо сгенерировать на гитхабе. REPO - задаете имя репозиторию.
  5. Клонировать репозиторий JSON на локальный компьютер. ======= git clone https://github.com/Irvine-Apostle/JSON_Repo.git
- 6. Внутри локального JSON создать файл “new.json”. ======= -touch new.json
+ 6. Внутри локального JSON создать файл “new.json”. ======= touch new.json
  7. Добавить файл под гит. ======= git add new.json
  8. Закоммитить файл. ======= git commit -m "add new.json file"
  9. Отправить файл на внешний GitHub репозиторий. ======= git push
@@ -139,33 +139,33 @@ cat > skills.xml затем добавляем необходимую инфор
 <Bag Report>
   
 	  <Bag ID>
-		   <ID number> 432 </ID number>
-		   <Name> Cart - Unable to add new item to my cart </Name>
-		   <Reporter> Danil Hazhiev </Reporter>
-		   <Date> 11.01.2022 </Date> 
+			<ID number> 432 </ID number>
+			<Name> Cart - Unable to add new item to my cart </Name>
+			<Reporter> Danil Hazhiev </Reporter>
+			<Date> 11.01.2022 </Date> 
 	  </Bag ID>
   
 	  <Bug overview>
-			  <Summary> When my cart contains one item, i am unable to second item by add to card button  </Summary>
+			<Summary> When my cart contains one item, i am unable to second item by add to card button  </Summary>
 		  	<URL> www.Amazon.com </URL>
 		  	<screenshot> www.image.com/randomscreenshot </screenshot>
 	  </Bug overview>
   
 	  <Environment>
 		  	<Platform> Random PC </Platform>
-			  <OS> Windows </OS>
+			<OS> Windows </OS>
 		  	<Browser> YandexBrowser </Browser>
-    </Environment>
+   	 </Environment>
   
   	<Bug Details>
-			  <Steps to reproduce> add one item to cart > choose product > try to add item by pressing add to card button > check cart </Steps to reproduce>
+			<Steps to reproduce> add one item to cart > choose product > try to add item by pressing add to card button > check cart </Steps to reproduce>
 		  	<Expected result> The cart should contain 2 items </Expected result>
-			  <Actual Result> The cart contain onlu 1 item  </Actual Result>
+			<Actual Result> The cart contain onlu 1 item  </Actual Result>
   	</Bug Details>
   
   	<Bug Tracking>
-   		  <Severity> Major </Severity>
-		    <Priority> High </Priority>
+   		  	<Severity> Major </Severity>
+		  	<Priority> High </Priority>
     </Bug Tracking>
   
 </Bag Report>
