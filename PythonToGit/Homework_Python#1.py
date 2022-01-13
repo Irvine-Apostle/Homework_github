@@ -50,11 +50,13 @@ LastName = 'Hazhiev'
 Patrynomic = 'Rafailovich'
 Age = 23
 
-Fio = LastName + ' ' + Name + ' ' + Patrynomic + ' ' + str(Age)
-
-print(Fio)
+TwoString = LastName + ' ' + Name
+print(TwoString)
 
 print(LastName, Name, Patrynomic,Age)
+
+print(LastName + ' ' + Name + ' ' + Patrynomic + ' ' + str(Age))
+
 
 
 
